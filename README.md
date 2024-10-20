@@ -4684,7 +4684,7 @@ So, similar to slices we can initialize our channel using the built-in `make` fu
 func main() {
 	ch := make(chan string)
 
-	fmt.Println(c)
+	fmt.Println(ch)
 }
 ```
 
