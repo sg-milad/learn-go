@@ -4661,13 +4661,13 @@ var ch chan T
 
 Here, we prefix our type `T` which is the data type of the value we want to send and receive with the keyword `chan` which stands for a channel.
 
-Let's try printing the value of our channel `c` of type `string`.
+Let's try printing the value of our channel `ch` of type `string`.
 
 ```go
 func main() {
 	var ch chan string
 
-	fmt.Println(c)
+	fmt.Println(ch)
 }
 ```
 
